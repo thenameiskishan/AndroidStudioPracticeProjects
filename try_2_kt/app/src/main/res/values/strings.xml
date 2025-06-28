@@ -1,0 +1,7 @@
+
+<resources>
+    <string name="app_name">ZoomInOut</string>
+    <string name="heading">Zoom In/Out in Android</string>
+    <string name="zoomOutButtonText">Zoom In</string>
+    <string name="zoomInButtonText">Zoom Out</string>
+</resources>

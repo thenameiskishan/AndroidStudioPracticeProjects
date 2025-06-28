@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">StudentQueryForm</string>
+
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign in</string>
+    <string name="enroll_no_text">Enrollment No.</string>
+    <string name="name_text">Name</string>
+    <string name="program_text">Program</string>
+    <string name="sem_text">Semester</string>
+    <string name="div_text">Division</string>
+    <string name="email_id_text">Email ID</string>
+    <string name="contact_text">Contact No.</string>
+    <string name="complain_hint_text">Write your complain here…</string>
+    <string name="button_text">Submit</string>
+</resources>

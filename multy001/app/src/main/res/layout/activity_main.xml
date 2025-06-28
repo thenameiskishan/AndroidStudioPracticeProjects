@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/no1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="100sp"
+        android:textColor="@color/cardview_shadow_start_color"
+        android:textStyle="normal"
+        android:layout_marginTop="180sp"
+
+        android:layout_marginStart="65sp"
+        android:layout_marginEnd="150sp"
+        />
+
+    <TextView
+        android:id="@+id/minus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="-"
+        android:textColor="@color/teal_200"
+        android:textSize="150sp"
+        android:textStyle="normal"
+        android:layout_below="@+id/no1"
+        android:layout_marginStart="70sp"
+
+    />
+
+    <TextView
+        android:id="@+id/plus1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/no1"
+        android:layout_marginStart="64sp"
+        android:layout_marginBottom="-150sp"
+        android:text="+"
+        android:textColor="@color/teal_200"
+        android:textSize="100sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/no2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textStyle="normal"
+        android:textColor="@color/cardview_shadow_start_color"
+        android:textSize="100sp"
+        android:layout_marginTop="180sp"
+        android:layout_marginStart="295sp"
+        />
+    <TextView
+        android:id="@+id/minus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:textSize="150sp"
+        android:textColor="@color/teal_200"
+        android:textStyle="normal"
+        android:layout_below="@+id/no2"
+        android:layout_marginStart="300sp"
+        />
+    <TextView
+        android:id="@+id/plus2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="100sp"
+        android:layout_marginBottom="-150sp"
+        android:textColor="@color/teal_200"
+        android:textStyle="normal"
+        android:layout_above="@+id/no2"
+        android:layout_marginStart="295sp"
+        />
+    <TextView
+        android:id="@+id/multiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:textSize="150sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180sp"
+        />
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ans:"
+        android:textSize="50sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500sp"
+        />
+    <TextView
+        android:id="@+id/out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="?"
+        android:textStyle="bold"
+        android:textSize="100sp"
+        android:textColor="@color/purple_700"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="580sp"
+        />
+
+
+</RelativeLayout>

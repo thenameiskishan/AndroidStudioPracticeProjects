@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Calculator"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/logo"
+        android:hint="enter 1st number.."
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:inputType="numberDecimal"
+        />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edt1"
+        android:hint="enter 2nd number.."
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="numberDecimal"
+        />
+
+    <LinearLayout
+        android:id="@+id/btns_lyt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt2"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25dp"
+            android:layout_marginHorizontal="5dp"
+
+            />
+        <Button
+            android:id="@+id/minus"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="-"
+            android:textSize="25dp"
+            android:layout_marginHorizontal="5dp"
+            />
+        <Button
+            android:id="@+id/multy"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:textSize="25dp"
+            android:layout_marginHorizontal="5dp"
+            />
+        <Button
+            android:id="@+id/div"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:text="&#247;"
+            android:textSize="25dp"
+            android:layout_marginHorizontal="5dp"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btns_lyt"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="--"
+        android:textSize="50dp"
+        />
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btns_lyt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="Clear"
+        android:textSize="25dp"
+        android:backgroundTint="#ff0000"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+       android:text="Select your favourate Fruit"
+       android:layout_marginTop="25sp"
+       />
+
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60sp"
+        android:layout_centerHorizontal="true"
+        >
+        <RadioButton
+            android:id="@+id/apple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            />
+        <RadioButton
+            android:id="@+id/banana"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banana"
+            />
+        <RadioButton
+            android:id="@+id/mango"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nmango"
+            />
+        <RadioButton
+            android:id="@+id/grapes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grapes"
+            />
+        <RadioButton
+            android:id="@+id/kiwi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kivi"
+            />
+    </RadioGroup>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_below="@+id/rg"
+        android:layout_marginTop="50sp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/empty"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtname"
+        android:layout_width="300sp"
+        android:layout_height="70sp"
+        android:hint="Enter Name"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/edtcity"
+        android:layout_width="300sp"
+        android:layout_height="70sp"
+        android:hint="Enter City"
+        android:layout_below="@id/edtname"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:id="@+id/edtid"
+        android:layout_width="300sp"
+        android:layout_height="70sp"
+        android:hint="Enter ID to Update/Delete"
+        android:layout_below="@id/edtcity"
+        android:layout_centerHorizontal="true"
+        />
+
+    <android.widget.Button
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:layout_below="@id/edtid"
+        android:layout_alignLeft="@id/edtid"
+        />
+
+    <android.widget.Button
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_below="@id/update"
+        android:layout_alignRight="@id/edtcity"
+        />
+
+    <android.widget.Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_below="@id/edtid"
+        android:layout_alignRight="@id/edtid"
+        />
+
+    <android.widget.Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/insert"
+        android:layout_alignLeft="@id/edtcity"
+        android:text="Show"
+        />
+    <TextView
+        android:id="@+id/banner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/show"
+        android:textSize="15sp"
+        android:letterSpacing="0.5"
+        android:text="DATA"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="10sp"
+
+        />
+
+
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/banner"
+        />
+
+</RelativeLayout>

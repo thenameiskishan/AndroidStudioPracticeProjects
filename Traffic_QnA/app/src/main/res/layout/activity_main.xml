@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:layout_width="350sp"
+        android:layout_height="450sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        app:cardElevation="20sp"
+        app:cardCornerRadius="50sp"
+        >
+
+        <TextView
+            android:id="@+id/que"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a Question ???"
+            android:textSize="30sp"
+            android:layout_marginTop="25sp"
+            android:layout_marginLeft="20sp"
+            />
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_marginTop="100sp"
+            android:layout_marginLeft="120sp"
+            />
+        <TextView
+            android:id="@+id/o1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(A) option 1"
+            android:textSize="25sp"
+            android:layout_marginTop="250sp"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/o2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(A) option 2"
+            android:textSize="25sp"
+            android:layout_marginTop="250sp"
+            android:layout_marginLeft="200sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/o3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(A) option 3"
+            android:textSize="25sp"
+            android:layout_marginTop="300sp"
+            android:layout_marginLeft="20sp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/o4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(A) option 4"
+            android:textSize="25sp"
+            android:layout_marginTop="300sp"
+            android:layout_marginLeft="200sp"
+            android:textColor="@color/black"
+            />
+
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130sp"
+            android:layout_marginTop="370sp"
+            android:text="CHECK"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/purple_200"
+            />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="20sp"
+        android:text="..."
+        android:textStyle="bold"
+
+        />
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card"
+        android:layout_marginTop="50sp"
+        android:layout_marginLeft="300sp"
+        android:text="NEXT"
+        android:textStyle="bold"
+
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650sp"
+        android:text="That's    Kishan"
+        android:letterSpacing="0.5"
+        />
+
+</RelativeLayout>
